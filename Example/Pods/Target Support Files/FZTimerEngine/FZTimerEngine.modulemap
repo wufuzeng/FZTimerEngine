@@ -1,0 +1,6 @@
+framework module FZTimerEngine {
+  umbrella header "FZTimerEngine-umbrella.h"
+
+  export *
+  module * { export * }
+}

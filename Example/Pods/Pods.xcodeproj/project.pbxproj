@@ -1,0 +1,773 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00DA236A22DDF6DDEE9C4A8A40787C9B /* Pods-FZTimerEngine_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 098E76D86A8BCC4B791E5A1900B61C05 /* Pods-FZTimerEngine_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0AC5BF3CD1B4282D8EDA3629CBB485FA /* FZTimerEngine.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B00A26BA518C3647DC3FA241B48F9FA /* FZTimerEngine.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		29AF3FA7EAFF4200E2F3B733DC9DB33C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		46BAEECADE9AA22FDAD03FEF106502D5 /* FZTimerEngine-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A14D979CB4EA76F3CB32AED34D1A7BBE /* FZTimerEngine-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6A51BE108C18E6D818A37B07477848DE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		7044E8568C02E1E4E585FD9516999D2D /* FZTimerEngine-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 51477C770C1711E964D2BB02AF0F1744 /* FZTimerEngine-dummy.m */; };
+		72E2C1EE24AE07C31E9FEBDFA0ECE0EB /* Pods-FZTimerEngine_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CFC1BE3F0210F8086CF094BD71AC7E79 /* Pods-FZTimerEngine_Tests-dummy.m */; };
+		8C90B1D75C4DB3B9DAF2B39B814D2190 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		94771C4687ACC43ABD33CC9ACB5339F4 /* Pods-FZTimerEngine_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BBE4B983565C8995FD5690E78F9A6CDD /* Pods-FZTimerEngine_Example-dummy.m */; };
+		A52648A378125E9D7D154F8871EF3A46 /* FZTimerEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 94C984830167D15E9743D6805B246F6F /* FZTimerEngine.m */; };
+		E07C7C23ADED0C84ABD2D94B69C8B18C /* Pods-FZTimerEngine_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 092C34931546F7745EB8C3B58C9140FA /* Pods-FZTimerEngine_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6AD94974A71B08B695DA7D07ACD587AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 92C2C9CCF94D3C0618B07A36B462AF75;
+			remoteInfo = "Pods-FZTimerEngine_Example";
+		};
+		7F37482FE028506DC6CD1AB8658265D5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BBF48D4BA78272BEBBC9F72ED2F8D3D8;
+			remoteInfo = FZTimerEngine;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0146672C656CE66DE88BA95A5844D5B0 /* Pods_FZTimerEngine_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FZTimerEngine_Tests.framework; path = "Pods-FZTimerEngine_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		092C34931546F7745EB8C3B58C9140FA /* Pods-FZTimerEngine_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FZTimerEngine_Example-umbrella.h"; sourceTree = "<group>"; };
+		098E76D86A8BCC4B791E5A1900B61C05 /* Pods-FZTimerEngine_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FZTimerEngine_Tests-umbrella.h"; sourceTree = "<group>"; };
+		13E8B150181C969CECF13785405116BD /* Pods-FZTimerEngine_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FZTimerEngine_Example-Info.plist"; sourceTree = "<group>"; };
+		1C0836F16B5BB64CF0FA17F462EAB536 /* Pods-FZTimerEngine_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FZTimerEngine_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		1C80BCE05032059ECFCF2F953A2C5B81 /* Pods_FZTimerEngine_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FZTimerEngine_Example.framework; path = "Pods-FZTimerEngine_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		268852A4661E5500F44B19FEE2200A06 /* Pods-FZTimerEngine_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FZTimerEngine_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3C2247C690C223F552C456DA9F848CE8 /* Pods-FZTimerEngine_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FZTimerEngine_Example-frameworks.sh"; sourceTree = "<group>"; };
+		51477C770C1711E964D2BB02AF0F1744 /* FZTimerEngine-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FZTimerEngine-dummy.m"; sourceTree = "<group>"; };
+		55BD6E1C556DFEBA4882F0CBF02B1641 /* FZTimerEngine-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FZTimerEngine-prefix.pch"; sourceTree = "<group>"; };
+		5DC0BAFC5185FBCF190EDEAAF466BF34 /* Pods-FZTimerEngine_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FZTimerEngine_Example.release.xcconfig"; sourceTree = "<group>"; };
+		5E6FB1C430BC9BB59123B01A4A5026DA /* FZTimerEngine.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FZTimerEngine.framework; path = FZTimerEngine.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		623E5CE6C7556FB5FEAD60763A172F7C /* FZTimerEngine.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = FZTimerEngine.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		67C6527723CBEB5B148D2B54F6700F29 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		6FAFB0C9F3F94BDFDDFC8166180593F7 /* Pods-FZTimerEngine_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FZTimerEngine_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		7B00A26BA518C3647DC3FA241B48F9FA /* FZTimerEngine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FZTimerEngine.h; path = FZTimerEngine/Classes/FZTimerEngine.h; sourceTree = "<group>"; };
+		94C984830167D15E9743D6805B246F6F /* FZTimerEngine.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FZTimerEngine.m; path = FZTimerEngine/Classes/FZTimerEngine.m; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9F01832B54A2C784E0467E96B932967D /* Pods-FZTimerEngine_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FZTimerEngine_Tests-Info.plist"; sourceTree = "<group>"; };
+		A14D979CB4EA76F3CB32AED34D1A7BBE /* FZTimerEngine-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FZTimerEngine-umbrella.h"; sourceTree = "<group>"; };
+		A5904984B478A64879908D32B80B5CAD /* FZTimerEngine.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FZTimerEngine.xcconfig; sourceTree = "<group>"; };
+		B904985BCD4774C2D68293EDDA191A5A /* FZTimerEngine.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FZTimerEngine.modulemap; sourceTree = "<group>"; };
+		BBE4B983565C8995FD5690E78F9A6CDD /* Pods-FZTimerEngine_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FZTimerEngine_Example-dummy.m"; sourceTree = "<group>"; };
+		BD5E6F34AAEB5F868057A83B811DC318 /* Pods-FZTimerEngine_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FZTimerEngine_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		C13B603C8FCC83844BA1AFB7AEAAE1ED /* Pods-FZTimerEngine_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FZTimerEngine_Example.modulemap"; sourceTree = "<group>"; };
+		C8EF84C878F6C724C22AE27D9184190D /* Pods-FZTimerEngine_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FZTimerEngine_Tests.modulemap"; sourceTree = "<group>"; };
+		CFC1BE3F0210F8086CF094BD71AC7E79 /* Pods-FZTimerEngine_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FZTimerEngine_Tests-dummy.m"; sourceTree = "<group>"; };
+		D3CC1EE22BD045E355E642A4D74576A6 /* FZTimerEngine-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FZTimerEngine-Info.plist"; sourceTree = "<group>"; };
+		DEAE1CAEB1BBB46CCBA24C4D1092A80C /* Pods-FZTimerEngine_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FZTimerEngine_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		E40BCE578E032090852C2A954DFAC83B /* Pods-FZTimerEngine_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FZTimerEngine_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		EC821DD5F6B0CEC5221F21FB74111E64 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		FE9BF752E9F30C07EA4523C03758792D /* Pods-FZTimerEngine_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FZTimerEngine_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		160EB39AB9C82D00803984A8EDB27E06 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29AF3FA7EAFF4200E2F3B733DC9DB33C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F2A8F16EFC593DB476976745E0AF260 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C90B1D75C4DB3B9DAF2B39B814D2190 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B984058FD6D8E1D0FBB280939A41B12 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A51BE108C18E6D818A37B07477848DE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01FE4E4B30C133D1D613502EBB07BB28 /* Pods-FZTimerEngine_Example */ = {
+			isa = PBXGroup;
+			children = (
+				C13B603C8FCC83844BA1AFB7AEAAE1ED /* Pods-FZTimerEngine_Example.modulemap */,
+				FE9BF752E9F30C07EA4523C03758792D /* Pods-FZTimerEngine_Example-acknowledgements.markdown */,
+				1C0836F16B5BB64CF0FA17F462EAB536 /* Pods-FZTimerEngine_Example-acknowledgements.plist */,
+				BBE4B983565C8995FD5690E78F9A6CDD /* Pods-FZTimerEngine_Example-dummy.m */,
+				3C2247C690C223F552C456DA9F848CE8 /* Pods-FZTimerEngine_Example-frameworks.sh */,
+				13E8B150181C969CECF13785405116BD /* Pods-FZTimerEngine_Example-Info.plist */,
+				092C34931546F7745EB8C3B58C9140FA /* Pods-FZTimerEngine_Example-umbrella.h */,
+				6FAFB0C9F3F94BDFDDFC8166180593F7 /* Pods-FZTimerEngine_Example.debug.xcconfig */,
+				5DC0BAFC5185FBCF190EDEAAF466BF34 /* Pods-FZTimerEngine_Example.release.xcconfig */,
+			);
+			name = "Pods-FZTimerEngine_Example";
+			path = "Target Support Files/Pods-FZTimerEngine_Example";
+			sourceTree = "<group>";
+		};
+		39894BF2D8E569C84A2BFA56E7336EB7 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				623E5CE6C7556FB5FEAD60763A172F7C /* FZTimerEngine.podspec */,
+				EC821DD5F6B0CEC5221F21FB74111E64 /* LICENSE */,
+				67C6527723CBEB5B148D2B54F6700F29 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		57BDAD3BC6C21E628551DD777A04FFAD /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				01FE4E4B30C133D1D613502EBB07BB28 /* Pods-FZTimerEngine_Example */,
+				640A0F766CB3AC4533DA46DED1367785 /* Pods-FZTimerEngine_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		640A0F766CB3AC4533DA46DED1367785 /* Pods-FZTimerEngine_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				C8EF84C878F6C724C22AE27D9184190D /* Pods-FZTimerEngine_Tests.modulemap */,
+				E40BCE578E032090852C2A954DFAC83B /* Pods-FZTimerEngine_Tests-acknowledgements.markdown */,
+				268852A4661E5500F44B19FEE2200A06 /* Pods-FZTimerEngine_Tests-acknowledgements.plist */,
+				CFC1BE3F0210F8086CF094BD71AC7E79 /* Pods-FZTimerEngine_Tests-dummy.m */,
+				9F01832B54A2C784E0467E96B932967D /* Pods-FZTimerEngine_Tests-Info.plist */,
+				098E76D86A8BCC4B791E5A1900B61C05 /* Pods-FZTimerEngine_Tests-umbrella.h */,
+				BD5E6F34AAEB5F868057A83B811DC318 /* Pods-FZTimerEngine_Tests.debug.xcconfig */,
+				DEAE1CAEB1BBB46CCBA24C4D1092A80C /* Pods-FZTimerEngine_Tests.release.xcconfig */,
+			);
+			name = "Pods-FZTimerEngine_Tests";
+			path = "Target Support Files/Pods-FZTimerEngine_Tests";
+			sourceTree = "<group>";
+		};
+		8E291201528EFE173C4C6714BD3116A0 /* FZTimerEngine */ = {
+			isa = PBXGroup;
+			children = (
+				7B00A26BA518C3647DC3FA241B48F9FA /* FZTimerEngine.h */,
+				94C984830167D15E9743D6805B246F6F /* FZTimerEngine.m */,
+				39894BF2D8E569C84A2BFA56E7336EB7 /* Pod */,
+				BB01519215C303A5E0B5A6E7A0D4BF9A /* Support Files */,
+			);
+			name = FZTimerEngine;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		8FDBA890D191BC6E6E67D41CB1001F3D /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8E291201528EFE173C4C6714BD3116A0 /* FZTimerEngine */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		BB01519215C303A5E0B5A6E7A0D4BF9A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B904985BCD4774C2D68293EDDA191A5A /* FZTimerEngine.modulemap */,
+				A5904984B478A64879908D32B80B5CAD /* FZTimerEngine.xcconfig */,
+				51477C770C1711E964D2BB02AF0F1744 /* FZTimerEngine-dummy.m */,
+				D3CC1EE22BD045E355E642A4D74576A6 /* FZTimerEngine-Info.plist */,
+				55BD6E1C556DFEBA4882F0CBF02B1641 /* FZTimerEngine-prefix.pch */,
+				A14D979CB4EA76F3CB32AED34D1A7BBE /* FZTimerEngine-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/FZTimerEngine";
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				8FDBA890D191BC6E6E67D41CB1001F3D /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				D0B00C285317045E118BF1366DC17EEF /* Products */,
+				57BDAD3BC6C21E628551DD777A04FFAD /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D0B00C285317045E118BF1366DC17EEF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5E6FB1C430BC9BB59123B01A4A5026DA /* FZTimerEngine.framework */,
+				1C80BCE05032059ECFCF2F953A2C5B81 /* Pods_FZTimerEngine_Example.framework */,
+				0146672C656CE66DE88BA95A5844D5B0 /* Pods_FZTimerEngine_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		010DDED7E8FD3520484D1EDB80E191B4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E07C7C23ADED0C84ABD2D94B69C8B18C /* Pods-FZTimerEngine_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADB8E8DB595C284019DF50EF59039DB4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46BAEECADE9AA22FDAD03FEF106502D5 /* FZTimerEngine-umbrella.h in Headers */,
+				0AC5BF3CD1B4282D8EDA3629CBB485FA /* FZTimerEngine.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B29A2B208BDB5F0C713A67DD5FBB9B0E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00DA236A22DDF6DDEE9C4A8A40787C9B /* Pods-FZTimerEngine_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		623B1CDEDC8CC689A2A9758B137ADC05 /* Pods-FZTimerEngine_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9D77A2B5E503949471042E6444042F67 /* Build configuration list for PBXNativeTarget "Pods-FZTimerEngine_Tests" */;
+			buildPhases = (
+				B29A2B208BDB5F0C713A67DD5FBB9B0E /* Headers */,
+				9AA120A7ABCE451F92CD1ED3D3B0A1F8 /* Sources */,
+				6B984058FD6D8E1D0FBB280939A41B12 /* Frameworks */,
+				7EC6A6AF0772D2A6C0BFCF24C04765BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C2682345CF10B3DD6DDEFCFEA65BBD7D /* PBXTargetDependency */,
+			);
+			name = "Pods-FZTimerEngine_Tests";
+			productName = "Pods-FZTimerEngine_Tests";
+			productReference = 0146672C656CE66DE88BA95A5844D5B0 /* Pods_FZTimerEngine_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		92C2C9CCF94D3C0618B07A36B462AF75 /* Pods-FZTimerEngine_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6A20F5BA06C7A236BE10D102DBC99F7 /* Build configuration list for PBXNativeTarget "Pods-FZTimerEngine_Example" */;
+			buildPhases = (
+				010DDED7E8FD3520484D1EDB80E191B4 /* Headers */,
+				E2B784B9A75D86C38E81631F1E948964 /* Sources */,
+				4F2A8F16EFC593DB476976745E0AF260 /* Frameworks */,
+				6A1E8F8F005BCA482E4601D2DE555DB2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8B171BEAC5885722821C5BE81B996ED0 /* PBXTargetDependency */,
+			);
+			name = "Pods-FZTimerEngine_Example";
+			productName = "Pods-FZTimerEngine_Example";
+			productReference = 1C80BCE05032059ECFCF2F953A2C5B81 /* Pods_FZTimerEngine_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BBF48D4BA78272BEBBC9F72ED2F8D3D8 /* FZTimerEngine */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C05C4FFF91F3E3D65EDB07B97205D19F /* Build configuration list for PBXNativeTarget "FZTimerEngine" */;
+			buildPhases = (
+				ADB8E8DB595C284019DF50EF59039DB4 /* Headers */,
+				5CF94983CF29763F05D2F3337BCB4FE3 /* Sources */,
+				160EB39AB9C82D00803984A8EDB27E06 /* Frameworks */,
+				E37E923EEB00AF3893E054B3A363BA53 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FZTimerEngine;
+			productName = FZTimerEngine;
+			productReference = 5E6FB1C430BC9BB59123B01A4A5026DA /* FZTimerEngine.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = D0B00C285317045E118BF1366DC17EEF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BBF48D4BA78272BEBBC9F72ED2F8D3D8 /* FZTimerEngine */,
+				92C2C9CCF94D3C0618B07A36B462AF75 /* Pods-FZTimerEngine_Example */,
+				623B1CDEDC8CC689A2A9758B137ADC05 /* Pods-FZTimerEngine_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6A1E8F8F005BCA482E4601D2DE555DB2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7EC6A6AF0772D2A6C0BFCF24C04765BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E37E923EEB00AF3893E054B3A363BA53 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5CF94983CF29763F05D2F3337BCB4FE3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7044E8568C02E1E4E585FD9516999D2D /* FZTimerEngine-dummy.m in Sources */,
+				A52648A378125E9D7D154F8871EF3A46 /* FZTimerEngine.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AA120A7ABCE451F92CD1ED3D3B0A1F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72E2C1EE24AE07C31E9FEBDFA0ECE0EB /* Pods-FZTimerEngine_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2B784B9A75D86C38E81631F1E948964 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94771C4687ACC43ABD33CC9ACB5339F4 /* Pods-FZTimerEngine_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8B171BEAC5885722821C5BE81B996ED0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FZTimerEngine;
+			target = BBF48D4BA78272BEBBC9F72ED2F8D3D8 /* FZTimerEngine */;
+			targetProxy = 7F37482FE028506DC6CD1AB8658265D5 /* PBXContainerItemProxy */;
+		};
+		C2682345CF10B3DD6DDEFCFEA65BBD7D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-FZTimerEngine_Example";
+			target = 92C2C9CCF94D3C0618B07A36B462AF75 /* Pods-FZTimerEngine_Example */;
+			targetProxy = 6AD94974A71B08B695DA7D07ACD587AB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		25260B4188C1D52EBD5BAA49D74CFD4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5904984B478A64879908D32B80B5CAD /* FZTimerEngine.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FZTimerEngine/FZTimerEngine-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FZTimerEngine/FZTimerEngine-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FZTimerEngine/FZTimerEngine.modulemap";
+				PRODUCT_MODULE_NAME = FZTimerEngine;
+				PRODUCT_NAME = FZTimerEngine;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		505EB147BF122FF1642F028C5824A4BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5904984B478A64879908D32B80B5CAD /* FZTimerEngine.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FZTimerEngine/FZTimerEngine-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FZTimerEngine/FZTimerEngine-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FZTimerEngine/FZTimerEngine.modulemap";
+				PRODUCT_MODULE_NAME = FZTimerEngine;
+				PRODUCT_NAME = FZTimerEngine;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5C7BEA37FE4DE0717AA446961D8EC087 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5DC0BAFC5185FBCF190EDEAAF466BF34 /* Pods-FZTimerEngine_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FZTimerEngine_Example/Pods-FZTimerEngine_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FZTimerEngine_Example/Pods-FZTimerEngine_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		64D49C86AE5D4250658761610C9DFB31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DEAE1CAEB1BBB46CCBA24C4D1092A80C /* Pods-FZTimerEngine_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FZTimerEngine_Tests/Pods-FZTimerEngine_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FZTimerEngine_Tests/Pods-FZTimerEngine_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6932C6536A293548419C1B28C7492E69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD5E6F34AAEB5F868057A83B811DC318 /* Pods-FZTimerEngine_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FZTimerEngine_Tests/Pods-FZTimerEngine_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FZTimerEngine_Tests/Pods-FZTimerEngine_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7EF7227D9B20A1D549000096ACCB23D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		CD2A9D5A3DB9CF816DDF9DB787913CC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6FAFB0C9F3F94BDFDDFC8166180593F7 /* Pods-FZTimerEngine_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FZTimerEngine_Example/Pods-FZTimerEngine_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FZTimerEngine_Example/Pods-FZTimerEngine_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EF7227D9B20A1D549000096ACCB23D7 /* Debug */,
+				4BE66A09A74FD25164AAB3C2645B9B93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9D77A2B5E503949471042E6444042F67 /* Build configuration list for PBXNativeTarget "Pods-FZTimerEngine_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6932C6536A293548419C1B28C7492E69 /* Debug */,
+				64D49C86AE5D4250658761610C9DFB31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C05C4FFF91F3E3D65EDB07B97205D19F /* Build configuration list for PBXNativeTarget "FZTimerEngine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				505EB147BF122FF1642F028C5824A4BC /* Debug */,
+				25260B4188C1D52EBD5BAA49D74CFD4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F6A20F5BA06C7A236BE10D102DBC99F7 /* Build configuration list for PBXNativeTarget "Pods-FZTimerEngine_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD2A9D5A3DB9CF816DDF9DB787913CC0 /* Debug */,
+				5C7BEA37FE4DE0717AA446961D8EC087 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

@@ -1,0 +1,16 @@
+PODS:
+  - FZTimerEngine (0.0.1)
+
+DEPENDENCIES:
+  - FZTimerEngine (from `../`)
+
+EXTERNAL SOURCES:
+  FZTimerEngine:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FZTimerEngine: a5f6646749adb12d4c4a9c41471ec0d09fe8c580
+
+PODFILE CHECKSUM: 459a05696339685e8ce19582ca3b532802ca06ec
+
+COCOAPODS: 1.7.4

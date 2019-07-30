@@ -1,0 +1,6 @@
+framework module Pods_FZTimerEngine_Tests {
+  umbrella header "Pods-FZTimerEngine_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
