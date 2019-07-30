@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'FZTimerEngine_Example' do
+  pod 'FZTimerEngine', :path => '../'
+
+  target 'FZTimerEngine_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
